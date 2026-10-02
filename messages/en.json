@@ -1,0 +1,165 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "cta": {
+      "primary": "Discuss a project",
+      "secondary": "View case studies"
+    },
+
+    "footer": {
+      "rights": "All rights reserved",
+      "madeWith": "Made with ❤️ in Samara"
+    }
+  },
+  "hero": {
+    "name": "Alexey Kuznetsov",
+    "role": "Fullstack Developer",
+    "pitch": "Turning complex business challenges into fast and reliable web applications",
+    "description": "6+ years of commercial development. Specializing in high-load CRM systems, legacy code migration, and frontend architecture. Worked with teams of up to 10,000 users and reduced first render time from 4.2s to 1.8s.",
+    "cta": {
+      "primary": "Discuss a project",
+
+      "secondary": "View case studies"
+    }
+
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "How I can help your business",
+
+    "items": [
+      {
+        "id": "web-apps",
+        "title": "Full-cycle web application development",
+        "shortTitle": "Web Apps",
+        "description": "I design and develop SPA and SSR applications using Next.js, Vue 3, and Nuxt 3. From architecture to deployment.",
+        "features": [
+          "Modular architecture design (microfrontends, Web Components)",
+          "REST/GraphQL API integration",
+          "CI/CD setup and containerization (Docker)",
+          "Test coverage (Vitest, Cypress, Jest)"
+
+        ],
+        "targetAudience": "Startups and businesses that need a scalable product from scratch"
+      },
+      {
+        "id": "optimization",
+
+        "title": "Optimization and refactoring",
+        "shortTitle": "Optimization",
+        "description": "I find bottlenecks in existing code and speed up the application. Real results — +35% performance boost and 2x+ faster load times.",
+        "features": [
+          "Performance audit (Lighthouse, Chrome DevTools)",
+          "Migration from Vue 2 to Vue 3 (Options API → Composition API)",
+
+          "Code-splitting, lazy loading, bundle optimization",
+          "Implementing testing and quality standards"
+        ],
+        "targetAudience": "Teams with legacy code that is slow and unpredictable"
+      },
+      {
+        "id": "tech-lead",
+        "title": "Technical leadership and audit",
+        "shortTitle": "Tech Lead / Audit",
+        "description": "I conduct code reviews, design architecture, and mentor junior/middle developers. Helping teams reach a new level of code quality.",
+        "features": [
+          "Codebase and architecture audit",
+          "Process setup: code review, CI/CD, testing",
+          "Mentoring and conducting interviews",
+          "Implementing Storybook, design systems, UI kits"
+        ],
+        "targetAudience": "Teams of 3+ developers who want to grow systematically"
+      },
+      {
+        "id": "web3",
+        "title": "Web3 and blockchain integrations",
+        "shortTitle": "Web3",
+        "description": "Crypto wallet integration, Solidity smart contracts, Ethereum development. Real experience launching MVPs with 10,000+ users.",
+        "features": [
+          "Solidity smart contract development",
+          "MetaMask and other crypto wallet integration",
+          "Balance reading and blockchain event handling",
+          "Transaction gas cost optimization"
+        ],
+        "targetAudience": "Projects in DeFi, NFT, and decentralized services"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A brief overview of my experience and approach",
+    "paragraphs": [
+      "My name is Alexey. I'm a frontend developer with 6+ years of commercial experience, currently growing into fullstack with the Next.js + TypeScript stack.",
+      "Throughout my career, I've worked at major IT companies (T1, Technoserv) and smaller products. I've designed CRM systems for the automotive and recruitment industries, launched recommendation platforms with Web3 integration, and developed Chrome extensions to automate recruiters' work. I managed a team of 3 frontend developers, conducted code reviews, and mentored colleagues.",
+      "My approach is not just to 'write code' but to solve a business problem. I think about architecture, performance, and testability from the first line. I believe good code is code that's easy to maintain a year from now."
+    ],
+    "stats": [
+
+      { "value": "6+", "label": "years of commercial development" },
+      { "value": "+35%", "label": "performance boost after Vue 2 → Vue 3 migration" },
+      { "value": "4.2s → 1.8s", "label": "first render time after optimization" },
+      { "value": "85%", "label": "test coverage of critical modules" },
+      { "value": "3", "label": "people managed as Team Lead" },
+      { "value": "10,000+", "label": "users on launched MVPs" }
+    ],
+    "skills": {
+      "title": "Key Skills",
+      "items": [
+        "Vue 3 (Composition API)",
+
+        "Nuxt 3",
+        "Pinia",
+        "Vite",
+        "Vitest",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "Docker",
+        "GitLab CI/CD",
+        "GitHub Actions",
+        "Solidity",
+        "Web3.js",
+        "MetaMask",
+        "Ethereum"
+      ]
+    }
+
+  },
+  "contacts": {
+    "title": "Contact",
+    "subtitle": "Ready to discuss your project",
+    "info": {
+      "email": "kuznetsov@developerjs.ru",
+      "phone": "+7 (903) 300-03-24",
+      "telegram": "@Zed_Popshow",
+      "location": "Samara, Russia",
+      "availability": "Available for remote work"
+    },
+    "form": {
+      "title": "Write to me",
+      "name": {
+        "label": "Name",
+        "placeholder": "How should I address you?"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me about your project..."
+      },
+      "submit": "Send",
+      "success": "Message sent! I'll get back to you shortly.",
+      "error": "An error occurred. Try again or write directly on Telegram."
+    }
+  }
+}
