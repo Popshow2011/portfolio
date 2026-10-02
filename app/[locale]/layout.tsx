@@ -7,14 +7,13 @@ import "../globals.css";
 
 
 const geistSans = Geist({
-
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
 });
 
 export const metadata: Metadata = {
@@ -31,8 +30,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;  // ← ВОТ ЭТО КЛЮЧЕВОЕ ИЗМЕНЕНИЕ
-
+  const { locale } = await params;
   const messages = await getMessages();
 
   return (
